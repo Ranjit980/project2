@@ -1,0 +1,181 @@
+/* Ranjit Thapa Magar - 8976008 */
+
+
+html {
+    font: 20px/1.5 'Arial', sans-serif;
+    background-color: #FDEBD0; 
+    color: #333333; 
+}
+
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: Arial, sans-serif;
+    background-color: #FDEBD0; 
+    color: #333333; 
+}
+
+
+header, footer {
+    background: linear-gradient(to right, #0055AA, #0077CC); 
+    color: #FFFFFF; 
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #FFFFFF; 
+}
+
+footer {
+    font-size: 0.8rem;
+    color: #FFFFFF; 
+}
+
+
+main {
+    float: left;
+    width: 70%;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color: #FDEBD0; 
+    color: #333333; 
+}
+
+aside {
+    float: right;
+    width: 30%;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color: #FAD7A0; 
+    color: #333333; 
+}
+
+
+#biography, #image {
+    float: left;
+    width: 50%;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color: #FDEBD0; 
+    color: #333333;
+}
+
+#quote, #video {
+    clear: both;
+    padding: 1rem;
+    box-sizing: border-box;
+    background-color: #FDEBD0;
+    color: #333333; 
+}
+
+
+h2 {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    color: #004488; 
+    text-align: center;
+}
+
+
+blockquote {
+    font-variant: normal;
+    font-style: italic;
+    font-weight: normal;
+    font-family: 'Times New Roman', serif;
+    color: #007733;
+    border: 1px solid #444;
+    padding: 1rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+figure {
+    border: 1px solid #444;
+    padding: 1rem;
+    background-color: #FAD7A0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+figure img {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+figure figcaption {
+    font-variant: small-caps;
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    color: #004488; 
+}
+
+
+iframe {
+    border: 1px solid #444;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+
+aside h2 {
+    font-variant: small-caps;
+    color: #007733; 
+    text-align: center;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #0055AA; 
+    line-height: 1.8;
+}
+
+aside ul li a:hover {
+    color: #FFA500;
+}
+
+form label {
+    font-variant: normal;
+    font-weight: bold;
+    color: #333333; 
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+}
+
+form input, form textarea, form select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    background-color: #FFFFFF; 
+    color: #333333; 
+    border: 1px solid #444;
+}
+
+
+@media (max-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+
+    main, aside {
+        float: none;
+        width: 100%;
+    }
+
+    #biography, #image {
+        float: none;
+        width: 100%;
+    }
+}
